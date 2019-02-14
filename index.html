@@ -7,38 +7,25 @@
     <meta name="author" content="colorlib.com">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,800" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.slim.js"
-  integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
-  crossorigin="anonymous"></script>
+
 
   </head>
   <body>
-    <div class="s004">
+    <section class="main">
       <form>
         <fieldset>
           <legend>MD5 GENERATOR</legend>
           <div class="inner-form">
             <div class="input-field">
-              <textarea class="form-control" id="md5_input"></textarea>
+              <textarea class="form-control" id="md5_input" placeholder="Type Something for generating md5"></textarea>
             </div>
           </div>
         </fieldset>
         <div class="show_output"></div>
       </form>
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.js"></script>
     <script src="js/extention/jq-md5.js"></script>
-    <script>
-   
-      $( "textarea" )
-        .keyup(function() {
-          var value = $( this ).val();
-          if(value){
-             $( ".show_output" ).text( $.md5(value));
-          }
-         
-        })
-        .keyup();
-      </script>
+    <script src="js/custom.js"></script>
   </body>
 </html>

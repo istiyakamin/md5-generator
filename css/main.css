@@ -1,11 +1,9 @@
-
-/*=====  End of Choices  ======*/
 * {
   box-sizing: border-box;
   margin: 0px auto;
 }
 
-.s004 {
+.main {
   min-height: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -20,6 +18,19 @@
   padding: 15px;
 }
 
+.main form {
+  width: 100%;
+  max-width: 790px;
+}
+
+.main form legend {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 textarea {
   width: 100%;
   height: 150px;
@@ -31,21 +42,7 @@ textarea {
   font-size: 18px;
   resize: none;
 }
-
-.show_output{
+.show_output_css{
   padding: 10px;
   background: white;
-}
-
-.s004 form {
-  width: 100%;
-  max-width: 790px;
-}
-
-.s004 form legend {
-  font-size: 36px;
-  color: #fff;
-  font-weight: 800;
-  text-align: center;
-  margin-bottom: 50px;
 }
